@@ -39,7 +39,7 @@ The algorithm successfully segments the oranges from the background, and the mor
 
 | Original Image (`Oranges.tif`) | Binary Segmentation Mask | Final Detection |
 | :---: | :---: | :---: |
-| ![Image: Original Oranges.tif](.media/Oranges.tif) | ![Image: Cleaned binary mask of oranges](.media/oranges_filled.png) | ![Image: Oranges count](.media/big_oranges_count.png) |
+| ![Image: Original Oranges.tif](.media/oranges.png) | ![Image: Cleaned binary mask of oranges](.media/oranges_filled.png) | ![Image: Oranges count](.media/big_oranges_count.png) |
 | The input image with two sizes of oranges. | The result of HSI thresholding and morphological opening. | The final output with big oranges counted. |
 
 ---
