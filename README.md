@@ -37,18 +37,18 @@ This method cleverly uses morphology to filter objects by size before counting.
 
 The algorithm successfully segments the oranges from the background, and the morphological counting logic correctly identifies and differentiates the two size classes, drawing bounding boxes as required.
 
-| Original Image (`Oranges.tif`) | Binary Segmentation Mask (`Figure 1`) | Final Detection (`Figure 2`) |
+| Original Image (`Oranges.tif`) | Binary Segmentation Mask | Final Detection |
 | :---: | :---: | :---: |
-| > **[Image: Original Oranges.tif]** | > **[Image: Cleaned binary mask of oranges]** | > **[Image: Oranges with bounding boxes and counts]** |
-| The input image with two sizes of oranges. | The result of HSI thresholding and morphological opening. | The final output with big and small oranges counted and boxed. |
+| ![Image: Original Oranges.tif](.media/Oranges.tif) | ![Image: Cleaned binary mask of oranges](.media/oranges_filled.png) | ![Image: Oranges count](.media/big_oranges_count.png) |
+| The input image with two sizes of oranges. | The result of HSI thresholding and morphological opening. | The final output with big oranges counted. |
 
 ---
 
 ## 🚀 How to Run
 
 1.  Open MATLAB.
-2.  Place the `orange_counter.m` script (named `A3_StudentID.m` in the spec) in the same directory as the input image, `Oranges.tif`.
+2.  Place the `orange_counter.m` script in the same directory as the input image, `Oranges.tif`.
 3.  Run the script.
 4.  The program will process the image and, as required by the project, automatically generate and display two figures:
-    * **Figure 1:** The binary segmentation mask.
-    * **Figure 2:** The original image with bounding boxes and counts for both "big" and "small" oranges.
+    * **Figure 1:** The binary segmentation mask.
+    * **Figure 2:** The original image with bounding boxes and counts for both "big" and "small" oranges.
